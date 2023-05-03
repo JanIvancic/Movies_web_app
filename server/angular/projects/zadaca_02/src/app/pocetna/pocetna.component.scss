@@ -1,0 +1,40 @@
+$primary-color: blue;
+$secondary-color: green;
+$tertiary-color: orange;
+
+p {
+  color: $primary-color;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 25px;
+  a {
+    color: $secondary-color;
+    text-decoration: none;
+    &:hover {
+      color: $tertiary-color;
+    }
+  }
+}
+
+div {
+  margin-top: 50px;
+  h2 {
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  ul {
+    list-style: none;
+    li {
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+}

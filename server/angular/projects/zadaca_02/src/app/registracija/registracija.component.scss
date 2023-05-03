@@ -1,0 +1,45 @@
+$primary-color: blue;
+$secondary-color: green;
+$tertiary-color: orange;
+
+form {
+  margin: 40px auto;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+  label {
+    color: $primary-color;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  #regGumb {
+    background-color: $secondary-color;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+  #regGumb:hover {
+    background-color: darken($secondary-color, 10%);
+  }
+}

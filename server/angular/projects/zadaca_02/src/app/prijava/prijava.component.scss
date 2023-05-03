@@ -1,0 +1,38 @@
+form {
+    margin: 40px auto;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+  
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="password"] {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid gray;
+    }
+  
+    #privGumb {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    #privGumb:hover {
+      background-color: darkgreen;
+    }
+  }
+  

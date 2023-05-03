@@ -1,0 +1,14 @@
+<p>DOBRO DOŠLI!</p>
+<nav>
+  <a routerLink="/prijava">Prijava|</a>
+  <a routerLink="/registracija">Registracija|</a>
+  <a routerLink="/profil">Profil|</a>
+  <a routerLink="/dokumentacija">Dokumentacija|</a>
+  <a (click)="odjava()">Odjava</a>
+</nav>
+<div *ngFor="let filmsByGenre of filmsByGenre">
+  <h2>{{ filmsByGenre.genre }}</h2>
+  <ul>
+    <li *ngFor="let film of filmsByGenre.films">{{ film.title }}</li>
+  </ul>
+</div>
